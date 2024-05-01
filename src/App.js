@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div id="container">
-      <img id="light" src={isOn ? imgLightOn : imgLightOff} />
+      <img id="light" src={isOn ? imgLightOn : imgLightOff} alt="Light"/>
       <button id="btn" onClick={() => setIsOn(!isOn)}>
         {isOn ? "ON" : "OFF"}
       </button>
