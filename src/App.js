@@ -10,7 +10,7 @@ function App() {
     <div id="container">
       <img id="light" src={isOn ? imgLightOn : imgLightOff} alt="Light"/>
       <button id="btn" onClick={() => setIsOn(!isOn)}>
-        {isOn ? "Bat" : "Tat"}
+        {isOn ? "On" : "Off"}
       </button>
     </div>
   );

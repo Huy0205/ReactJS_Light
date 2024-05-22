@@ -7,6 +7,6 @@ test("renders App component", () => {
   const image = getByAltText("Light");
   expect(image).toBeInTheDocument();
 
-  const btn = getByText("Tat");
+  const btn = getByText("Off");
   expect(btn).toBeInTheDocument();
 });
